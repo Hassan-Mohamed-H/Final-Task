@@ -167,7 +167,7 @@ def loginfront():
 
     bg_image = Image.open(r"E:\Python Track\final task\photos\login interface.png")
     bg_photo = ImageTk.PhotoImage(bg_image)
-    lbl_bg = Label(win, image=bg_photo)
+    lbl_bg = Label(win, image=bg_photo,bd=0)
     lbl_bg.image = bg_photo
     lbl_bg.place(x=0, y=0)
 
